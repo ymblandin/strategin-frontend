@@ -1,0 +1,26 @@
+.users-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebf5ee;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+button {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+}

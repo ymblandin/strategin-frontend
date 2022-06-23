@@ -1,0 +1,53 @@
+.login-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebf5ee;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.email-container {
+  margin: 1rem;
+}
+
+.password-container {
+  margin: 1rem;
+}
+
+.submit-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type='password'],
+input[type='email'] {
+  width: 300px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+button {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+}
